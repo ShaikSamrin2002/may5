@@ -1,0 +1,49 @@
+MEMORY SIZE:
+ INT- 2 BYTE
+ 
+ FLOAT - 4 BYTES(7 DIGITS AFTER DECIMAL)
+ DOUBLE - 8 BYTES (15 DIGIT AFTER DECIMAL POINT)
+ CHAR - 2 BYTES
+ BOOLEAN - TRUE,FALSE(1,0)
+ STRING STR = "   " ;
+ 
+ 
+ OPERATIONS IN JAVA:
+ a+b  -- a,b are operands and + is operator
+ a-b
+ a*b
+ a%b
+ 
+ UNARY OPERATORS:
+ A++
+ ++A
+ 
+ RELATIONAL OPERATORS:
+ >
+ <
+ <=
+ >=
+ !=
+ ==
+ 
+ int a=5;
+ int b=7;
+ int c=1;
+ if(a>b && d>c)
+ {
+    System.out.println("A is greater then b");
+ }
+ else if (b>c) 
+ {
+     System.out.println("b is greater then a and c");
+ }
+ else
+ {
+      System.out.println("c is greater");
+ }
+ 
+ 
+ 
+ 
+ 
+ 
