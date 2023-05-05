@@ -1,0 +1,56 @@
+java is object oriented language(oops)
+java is a platform independent language...
+in java we have classes 
+-- in c source code-object code-executable code
+we use .java extension to save --  x.java will convert to byte code then to JVM(java virtual machine) then to output
+
+--- jvm converts byte code into machine code and also identify the microprocessor
+x.classjava --it will convert java file into c file
+QUE:WHY JAVA IS PLATFORM INDEPENDENT?
+ ans:
+ suppose we have any microproccesor like pentium
+ x.java file is converted to x.class file then it go to JVM which identifies the microprocessor and runs according to the microprocessor we are using then gives output
+ JVM WILL CONVERT THESE BYTES CODE INSTRUCTIONS INTO MACHINE CODE WHICH IS UNDERSTANDABLE BY MICROPROCESSOR
+
+
+---- INTODUCTION TO JAVA
+in 1990's ,there is sun microsystem(green project
+1991-bill joy,james gosling,mike sneradin,patric k naugnton
+java first name was OAK then to JAVA
+
+--- FEATURES OF JAVA
+1.Simple programming language(it works on electronic device  
+2.pointers are not there in java so it become easy to understand
+3.security is more
+4.object oriented language .... an object is anything which exists in real world ex.Human being,book,tree
+                           ....object contains variables(properties like name,age,color) and methods(actions like eating,...)
+**A GROUP OF OBEJCTS EXISTING SAME BEHAVIOUR(PROPERTIES+ACTIONS) WILL COME UNDER THE SAME GROUP AS CLASS
+     CLASS DOG:   -- creating class
+              NAME,AGE,WEIGHT  -- Applicable to every dog
+     DOG D1=TOM,10,12KG    --- OBJECT Is which is for one preferred dog -- CREATING OBJECT
+     
+     
+**JAVA IS NOT PURELY OBJECT ORIENTED LANGUAGE BECAUSE :
+        OBJECT ORIENTED LANGUAGE BECAUSE WILL CONTAIN ONLY CLASS AND OBJECTS AND SHOULD NOT CONTAIN PRIMITIVE DATATYPES(INT,FLOAT,DOUBLE .,)
+        BUT JAVA CONTAINS PRIMITIVE DATATYPES AND MULTIPLE INHERITENCE DOES NOT EXIST
+              
+JVM:
+  jvm is the heart of entire java program execution process
+    ARCHITECTURE OF JVM::
+      class file --> class loader(load class file into memory)
+                           | ( down arrow)
+         1.         2.       3.       4.                 5.
+      method      heap     java      pc           native method
+      area                stack    registers        stack           ---- RUNTIME DATA ACCESS
+                
+      Iterpreter    JIT             ----EXECUTION ENGINE 
+                   compiler
+                
+                
+        method area- memory block where class code are stored
+        heap - objects are created
+        java stack - memory allocation store data and result 
+        pc registers - which contains the memory address of the instructions of methods(foe ex 3 methods,then 3 pc reg are used)
+        native method stack - to execute using libraries of c,c++,python etc.,
+        interpreter - will convert byte code to machine code
+        JIT compiler - just in time (it increase the speed of execution of a java program)
