@@ -1,0 +1,77 @@
+public class Test {
+    public static void main(String[] args)  {
+      system.out.println("Hello World"); // prints with next line
+      system.out.print("HEro Vired");  // prints
+      
+      }
+}
+
+o/p : Hello World
+      Hero Vired
+      
+--
+INPUT INTIALISATION AND PRINTING
+
+public class Test {
+    public static void main(String[] args)  {
+        int a=10;
+        system.out.println("Value of a: "+a);
+        }
+ }
+ 
+ o/p:10
+ --
+ INPUT FROM USER:
+ import java.util.Scanner;
+ public class Test {
+    public static void main(String[] args)  {
+      int x;
+      Test t=new Test();
+
+      Scanner sc=new Scanner(System.in); // scanner is class ,, sc is object
+      system.out.print("Enter the value of x: ");
+      x=sc.nextIn();  // instruction to take input
+      System.out.println("Value of x is "+x); 
+      }
+ }
+ 
+ o/p: Enter the value of x: 9
+      Value of x is 9
+ ---
+ INPUT AS STRING:
+import java.util.Scanner;
+ public class Test {
+    public static void main(String[] args)  {
+      int x;
+      Scanner sc=new Scanner(System.in); // scanner is class ,, sc is object
+      System.out.println("Enter your name: ");
+      s=sc.nextLine();
+      System.out.println('The name is "+s);
+      }
+ }
+ 
+ o/p: Enter your name : Samrin
+      The name is Samrin
+      
+---
+ADDING TWO OPERANS FROM USER INPUT
+
+ import java.util.Scanner;
+ public class Test {
+    public static void main(String[] args)  {
+      int x;
+      int y;
+
+      Scanner sc=new Scanner(System.in); // scanner is class ,, sc is object
+      System.out.print("Enter the value of x: ");
+      System.out.print("Enter the value of y: ");
+      x=sc.nextIn();  // instruction to take input
+      y=sc.nextIn(); 
+      System.out.println("Value of z is "+(x+y)); 
+      }
+ }
+  o/p: Enter x : 10
+       Enter y : 20
+       value of z is 30
+ 
+ 
